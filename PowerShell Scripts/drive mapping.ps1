@@ -1,7 +1,7 @@
 $connectTestResult = Test-NetConnection -ComputerName evzlab12storageaz500.file.core.windows.net -Port 445
 if ($connectTestResult.TcpTestSucceeded) {
     # Save the password so the drive will persist on reboot
-    cmd.exe /C "cmdkey /add:`"evzlab12storageaz500.file.core.windows.net`" /user:`"localhost\evzlab12storageaz500`" /pass:`"
+    cmd.exe /C "cmdkey /add:`"evzlab12storageaz500.file.core.windows.net`" /user:`"localhost\evzlab12storageaz500`" /pass:`"ozR357Fsp9U8hWfO0mcHj8RXTk8gGGi42nqf66EWfJjv4AsIUGvw0igesOiGJNCq5vzuEt8A8kJS+AStt6sfKg==`""
     # Mount the drive
     New-PSDrive -Name Z -PSProvider FileSystem -Root "\\evzlab12storageaz500.file.core.windows.net\my-file-share" -Persist
 } else {
