@@ -18,6 +18,15 @@ The lab covers the creation of virtual networks, subnet segmentation, network se
 - Validate secure access from authorized and unauthorized network locations.
 - Understand defense-in-depth principles for Azure storage security.
 
+Task 1: Create a virtual network
+Task 2: Add a subnet to the virtual network and configure a storage endpoint
+Task 3: Configure a network security group to restrict access to the subnet
+Task 4: Configure a network security group to allow rdp on the public subnet
+Task 5: Create a storage account with a file share
+Task 6: Deploy virtual machines into the designated subnets
+Task 7: Test the storage connection from the private subnet to confirm that access is allowed
+Task 8: Test the storage connection from the public subnet to confirm that access is denied
+
 ##Technologies Used:
 - Microsoft Azure.
 - Azure Storage Accounts.
