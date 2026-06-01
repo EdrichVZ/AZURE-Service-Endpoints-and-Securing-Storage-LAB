@@ -9,7 +9,7 @@ The lab covers the creation of virtual networks, subnet segmentation, network se
 
 (The project was completed as part of hands-on preparation for the AZ-500: Azure Security Engineer Associate certification).
 
-##Objectives:
+##Objectives(Completed):
 - Create and configure Azure Virtual Networks and subnets.
 - Deploy and manage Network Security Groups (NSGs).
 - Configure Azure Storage Accounts and Azure File Shares.
